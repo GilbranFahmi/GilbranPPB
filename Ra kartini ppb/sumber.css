@@ -1,0 +1,140 @@
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px 0;
+}
+
+.icon-container img {
+    width: 20px; /* Atur lebar gambar */
+    height: auto; /* Biarkan tinggi otomatis */
+}
+
+/* Navbar */
+.navbar {
+    background: #fff;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 15px 0;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbar .logo .icon {
+    margin-right: 10px;
+    color: #333;
+}
+
+.navbar .logo .text {
+    text-decoration: none; /* Menghilangkan garis bawah pada tautan */
+    color: #333;
+}
+
+.navbar nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar nav ul li {
+    margin-left: 20px;
+}
+
+.navbar nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.navbar nav ul li a:hover {
+    color: #007bff;
+}
+
+/* Konten Utama */
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.icon-container {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.content {
+    flex-grow: 1;
+}
+
+.content p:first-child {
+    font-weight: bold;
+}
+
+.read-btn {
+    display: inline-block; /* Membuat elemen seperti tombol */
+    padding: 10px 20px; /* Padding untuk ukuran tombol */
+    background-color: #007bff; /* Warna latar belakang biru */
+    color: #fff; /* Warna teks putih */
+    text-decoration: none; /* Menghilangkan garis bawah pada tautan */
+    border-radius: 5px; /* Sudut melengkung */
+    font-size: 14px; /* Ukuran teks */
+    font-weight: bold; /* Tebal teks */
+    transition: background-color 0.3s ease; /* Efek hover */
+}
+
+.read-btn:hover {
+    background-color: #0056b3; /* Warna latar belakang saat dihover */
+}
+
+footer {
+    background: #f4f4f4;
+    color: #333;
+    text-align: center;
+    padding: 20px 0;
+}   

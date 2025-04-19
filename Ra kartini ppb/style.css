@@ -1,0 +1,159 @@
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header */
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Navbar */
+.navbar {
+    background: #fff;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 15px 0;
+    width: 100%; /* Pastikan navbar meluas penuh */
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px; /* Batasi lebar maksimum konten di dalam navbar */
+    margin: 0 auto; /* Sentralisasi konten jika diperlukan */
+}
+
+.navbar .logo {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbar .logo .icon {
+    margin-right: 10px;
+    color: #333;
+}
+
+.navbar .logo .text {
+    text-decoration: none; /* Menghilangkan garis bawah pada tautan */
+    color: #333;
+}
+
+.navbar nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar nav ul li {
+    margin-left: 20px;
+}
+
+.navbar nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.navbar nav ul li a:hover {
+    color: #007bff;
+}
+
+/* Banner Section */
+.banner {
+    position: relative;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.banner .container {
+    position: relative;
+}
+
+.banner .content {
+    position: absolute;
+    bottom: 20px; /* Posisi di bawah */
+    left: 20px;   /* Posisi di kiri */
+    text-align: left; /* Aligment teks ke kiri */
+    color: #fff;
+    padding: 20px;
+    z-index: 1;
+}
+
+.banner h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.banner p {
+    font-size: 16px;
+    max-width: 800px;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.banner .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+    margin-top: 10px; /* Jarak antara paragraf dan tombol */
+}
+
+.banner .btn:hover {
+    background: #0056b3;
+}
+
+.banner .background-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    filter: brightness(80%);
+    border-radius: 20px;
+}
+
+/* Footer */
+footer {
+    background: #f4f4f4;
+    color: #333;
+    text-align: center;
+    padding: 20px 0;
+}
